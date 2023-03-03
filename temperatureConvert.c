@@ -47,7 +47,19 @@ int main() {
 
     scanf("%f", &temp);
 
-    printf("Enter your choice:\n1. Celsius to Fahrenheit\n2. Celsius to Kelvin\n3. Fahrenheit to Celsius\n4. Fahrenheit to Kelvin\n5. kelvin to Fahrenheit\n6. kelvin to Celsius  ");
+    printf("\nThe following conversions can be carried out:\n\n1. Celsius to Fahrenheit");
+    
+    printf("\n\n2. Celsius to Kelvin");
+
+    printf("\n\n3. Fahrenheit to Celsius");
+
+    printf("\n\n4. Fahrenheit to Kelvin");
+
+    printf("\n\n5. kelvin to Fahrenheit");
+
+    printf("\n\n6. Kelvin to Celsius");
+
+    printf("\n\nEnter your choice: ");
 
     scanf("%d", &choice);
 
@@ -89,10 +101,11 @@ int main() {
             printf("%.2f Kelvin is equal to %.2f Celsius\n", temp, result);
 
             break;
-    
 
         default: printf("Invalid Choice!\n");
+            break;
     }
+printf("\n\n");
 
     return 0;
 }
